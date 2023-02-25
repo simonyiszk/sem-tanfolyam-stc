@@ -3839,7 +3839,7 @@
     (property "Value" "SW_Push" (at 171.45 138.4301 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 177.8 139.7 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 177.8 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 139.7 0)
