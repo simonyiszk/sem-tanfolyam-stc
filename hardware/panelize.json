@@ -1,0 +1,19 @@
+{
+    "layout": {
+        "hspace": "5mm",
+        "vspace": "5mm",
+        "rows": "4",
+        "cols": "5"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "spacing": "1mm",
+        "offset": "-0.5mm",
+        "prolong": "0.5mm"
+    },
+    "framing": {
+        "type": "frame",
+        "hspace": "3mm",
+        "vspace": "3mm"
+    }
+}

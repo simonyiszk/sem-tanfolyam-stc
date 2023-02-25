@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "sem-tanfolyam")(type "KiCad")(uri "${KIPRJMOD}/sem-tanfolyam.pretty")(options "")(descr ""))
+  (lib (name "jlcpcb_rotation")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb_rotation.pretty")(options "")(descr ""))
 )
