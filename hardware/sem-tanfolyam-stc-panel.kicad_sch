@@ -7,7 +7,7 @@
   (title_block
     (title "SEM tanfolyam STC panel")
     (date "2023-02-09")
-    (rev "A.1")
+    (rev "A")
   )
 
   (lib_symbols
