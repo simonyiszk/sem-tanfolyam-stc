@@ -60,7 +60,7 @@ void ShiftOut7Segment( uint16_t u16CodeWord )
 
 int main( void )
 {
-    uint8_t  u8Counter = 0;
+    uint8_t __xdata u8Counter = 0;
     uint16_t u16Result;
     float    fTemp;
 
@@ -107,7 +107,7 @@ int main( void )
         fTemp = logf( ( 1024.0 / (float)u16Result ) - 1.0 ) / 3950.0 + 1.0/298.15;
         fTemp = 1.0/fTemp - 273.15;
 
-        ShiftOut7Segment( (uint16_t)cau8SevenSegmentTableRight[ (uint8_t)fTemp%10 ] | (uint16_t)cau8SevenSegmentTableLeft[ (uint8_t)fTemp/10 ]<<8 );
+        ShiftOut7Segment( (uint16_t)cau8SevenSegmentTableRight[ (uint8_t)floorf(fTemp+0.5)%10 ] | (uint16_t)cau8SevenSegmentTableLeft[ (uint8_t)floorf(fTemp+0.5)/10 ]<<8 );
 
         SYS_Delay(500);  // 100 ms delay
         P11 = !P11;
