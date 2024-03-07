@@ -1506,8 +1506,8 @@
 				)
 			)
 		)
-		(property "Value" "RED"
-			(at 1.27 3.96 90)
+		(property "Value" "LED"
+			(at -2.286 -0.127 0)
 			(layer "F.Fab")
 			(uuid "1264157b-1a45-4f9c-a5cc-4817dbb8413f")
 			(effects
@@ -1736,7 +1736,7 @@
 			)
 		)
 		(property "Value" "SA39-11SRWA"
-			(at 4.44 15.716 180)
+			(at 3.81 12.954 180)
 			(layer "F.Fab")
 			(uuid "6bf59287-ea0e-4bf0-b61d-4b8dedb61b0a")
 			(effects
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 0 23.09 180)
+			(at 2.794 10.414 -90)
 			(layer "F.Fab")
 			(uuid "e23f3902-b4cc-4985-b938-4d900f71b5a8")
 			(effects
@@ -2429,7 +2429,7 @@
 			)
 		)
 		(property "Value" "SA39-11SRWA"
-			(at 4.44 15.716 180)
+			(at 3.81 12.954 180)
 			(layer "F.Fab")
 			(uuid "1051ebe9-230d-4b0f-835f-f3eb516695e7")
 			(effects
@@ -2780,8 +2780,8 @@
 				)
 			)
 		)
-		(property "Value" "RED"
-			(at 0.73 3.96 90)
+		(property "Value" "LED"
+			(at -2.281 -0.127 180)
 			(layer "F.Fab")
 			(uuid "5541b1ff-e01a-4883-8a69-dedcbc3bb640")
 			(effects
@@ -3010,7 +3010,7 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 0 22.65 0)
+			(at 2.794 10.517 90)
 			(layer "F.Fab")
 			(uuid "74133dc8-81eb-4061-b2f1-be656f076cf7")
 			(effects
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 2.984 0 0)
 			(layer "B.Fab")
 			(uuid "afb2047e-10e1-4007-b81e-0b0f4a6968c2")
 			(effects
@@ -3564,7 +3564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "4c32f8ac-e87a-4696-b046-a79496982eb6")
@@ -4192,7 +4192,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 1.85 90)
+			(at 1.5625 1.905 90)
 			(layer "B.SilkS")
 			(uuid "0600de69-63ac-4af0-8a19-c7c8adbc310c")
 			(effects
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.85 90)
+			(at -1.4855 1.905 90)
 			(layer "B.Fab")
 			(uuid "7b7ed774-ac03-4dd1-ae48-c8f036ccf4db")
 			(effects
@@ -4814,7 +4814,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 0)
+			(at -3.276 0 0)
 			(layer "B.Fab")
 			(uuid "062d56ba-8dc6-438f-8fff-f43a088d02af")
 			(effects
@@ -5027,7 +5027,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 0)
+			(at -3.53 0.016 0)
 			(layer "B.Fab")
 			(uuid "93286490-b3ff-4332-83de-d75897f8605a")
 			(effects
@@ -5228,7 +5228,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at -0.032 2.032 -90)
+			(at -1.302 2.032 -90)
 			(layer "B.SilkS")
 			(uuid "f071c4ba-a4ca-41a4-bf38-7ea4cce11e07")
 			(effects
@@ -5240,7 +5240,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 1.492 2.032 90)
 			(layer "B.Fab")
 			(uuid "69a1a451-45aa-4a9a-bda6-9106b13c9c3f")
 			(effects
@@ -5441,7 +5441,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
-			(at -0.006 -1.778 -90)
+			(at 1.01 -1.778 -90)
 			(layer "B.SilkS")
 			(uuid "51f73af9-2074-49eb-9ef1-ea7e174611d6")
 			(effects
@@ -5453,7 +5453,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at -1.53 -1.82 -90)
 			(layer "B.Fab")
 			(uuid "3b22ec7e-7c80-45fc-b77c-7550c4bd5214")
 			(effects
@@ -5666,7 +5666,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 3.042 0 0)
 			(layer "B.Fab")
 			(uuid "1853eac1-c392-40b3-b48b-bc4d383a2b9a")
 			(effects
@@ -6092,7 +6092,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 3.042 0 0)
 			(layer "B.Fab")
 			(uuid "737ffe86-7f2e-41cc-9644-94764f719592")
 			(effects
@@ -6702,7 +6702,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 3.016 0 0)
 			(layer "B.Fab")
 			(uuid "507d5225-8f66-4c9e-8a2d-78240085f565")
 			(effects
@@ -6903,7 +6903,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 1.82 -90)
+			(at 1.042 2.032 -90)
 			(layer "B.SilkS")
 			(uuid "1824ffe4-f91f-48ee-a7fe-90a14fbcde3e")
 			(effects
@@ -6915,7 +6915,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at -1.752 2.032 -90)
 			(layer "B.Fab")
 			(uuid "84d3f3b4-94f4-4ca0-85ca-3f041c8e7c98")
 			(effects
@@ -7128,7 +7128,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.82 0)
+			(at 0 1.905 0)
 			(layer "B.Fab")
 			(uuid "17eed6be-dadd-4fd1-956f-4d28713d77e5")
 			(effects
@@ -7341,7 +7341,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 2.984 0 0)
 			(layer "B.Fab")
 			(uuid "4f94e08b-103d-4b7c-bfbf-6d8a56ac07d9")
 			(effects
@@ -7755,7 +7755,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 0 -1.8288 -90)
+			(at 1.0608 -1.8288 -90)
 			(layer "B.SilkS")
 			(uuid "f68edd9e-16b8-47fe-8359-441d79f06a56")
 			(effects
@@ -7767,7 +7767,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at -1.4792 -1.8288 -90)
 			(layer "B.Fab")
 			(uuid "5dbd543c-8f95-41f0-8e57-4313dd1d4994")
 			(effects
@@ -7968,7 +7968,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at 0 1.82 -90)
+			(at 1.296 1.82 -90)
 			(layer "B.SilkS")
 			(uuid "00a68f08-eeed-4cfb-a9a9-99fb194660a9")
 			(effects
@@ -7980,7 +7980,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at -1.498 1.778 -90)
 			(layer "B.Fab")
 			(uuid "ffc17971-8123-47c0-a93d-3163376b3661")
 			(effects
@@ -8193,7 +8193,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 2.984 0 0)
 			(layer "B.Fab")
 			(uuid "caf8b0a9-93a6-424a-b8c5-3b1cd20ab3f1")
 			(effects
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 3.042 0 0)
 			(layer "B.Fab")
 			(uuid "0048a03c-1f38-489d-9bda-e3906d2134bb")
 			(effects
@@ -8619,7 +8619,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.82 90)
+			(at -0.736 1.778 90)
 			(layer "B.Fab")
 			(uuid "98469ed0-8c09-4541-b560-fb6aaab2ab16")
 			(effects
@@ -8832,7 +8832,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.82 -90)
+			(at 3.042 0 0)
 			(layer "B.Fab")
 			(uuid "b3d0e38c-30bb-4916-a52a-999a29dd24e2")
 			(effects

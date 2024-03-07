@@ -5458,7 +5458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "LED"
 			(at 140.97 171.7674 90)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a40e348-e0b6-4530-a8d3-0bba3bed5472")
 		(property "Reference" "D1"
-			(at 125.73 169.8625 90)
+			(at 125.73 169.2274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,8 +6804,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
-			(at 125.73 172.4025 90)
+		(property "Value" "LED"
+			(at 125.73 171.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
