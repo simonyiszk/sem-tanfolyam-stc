@@ -3247,16 +3247,6 @@
 		)
 		(uuid "ffa5356a-e484-41d8-9504-4f33c9b37343")
 	)
-	(text "TODO: FOOTPRINTET CSEKKOLNI!"
-		(exclude_from_sim no)
-		(at 81.28 147.574 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "55652f9c-e717-47f3-bde5-60fa748cdb18")
-	)
 	(label "P5.5"
 		(at 237.49 97.79 0)
 		(fields_autoplaced yes)
@@ -4152,7 +4142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k5"
 			(at 198.12 135.8899 0)
 			(effects
 				(font
@@ -4773,7 +4763,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Filled"
+		(property "Value" "POWER"
 			(at 228.6 66.3574 90)
 			(effects
 				(font
@@ -4843,7 +4833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k5"
 			(at 227.33 57.1499 0)
 			(effects
 				(font
@@ -5805,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 144.78 78.7399 0)
 			(effects
 				(font
@@ -5875,7 +5865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 198.12 107.9499 0)
 			(effects
 				(font
@@ -6781,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "270"
 			(at 228.6 93.98 90)
 			(effects
 				(font

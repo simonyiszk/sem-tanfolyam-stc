@@ -50,6 +50,15 @@ void main()
     PIN_MODE_CONFIG(P1, PIN_2 | PIN_3 | PIN_4 | PIN_5, PIN_MODE_STANDARD); // SPI
     PIN_MODE_CONFIG(P1, PIN_0 | PIN_1, PIN_MODE_PUSHPULL); // LEDs
 
+    for(unsigned char k=0; k<2; k++){
+        P10 = 1;
+        P11 = 0;
+        delay(200);
+        P10 = 0;
+        P11 = 1;
+        delay(200);
+    }
+    
     PIN_MODE_CONFIG(P5, PIN_5, PIN_MODE_HIRGRESIN);
     PIN_PULLUP_CONFIG(P5, PIN_5, PIN_PULLUP_ENABLE) // Baud selector JUMPER with pull-up
 
